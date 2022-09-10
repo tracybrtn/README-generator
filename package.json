@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Command-line application that dynamically generates professional README.md files from user's input through Inquirer",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquire": "^0.4.8",
+    "inquirer": "^6.3.1",
+    "r": "^0.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracybrtn/README-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tracybrtn/README-generator/issues"
+  },
+  "homepage": "https://github.com/tracybrtn/README-generator#readme"
 }
