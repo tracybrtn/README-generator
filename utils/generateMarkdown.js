@@ -40,7 +40,7 @@ ${data.contribution}
 
 ## Tests
 
-${data.tests}
+${data.test}
 `;
 }
 
