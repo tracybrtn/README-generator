@@ -25,6 +25,7 @@ ${data.title}
 3. [Usage](#usage)
 4. [Contribution](#contribution)
 5. [Tests](#tests)
+6. [Questions](#questions)
 
 ## Installation
 
@@ -41,6 +42,12 @@ ${data.contribution}
 ## Tests
 
 ${data.test}
+
+## Questions
+
+If you have any questions about this project, contact me at ${data.email}.
+Don't forget to check out my other projects! Visit https://github.com/${data.github}.
+
 `;
 }
 
