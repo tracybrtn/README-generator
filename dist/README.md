@@ -1,8 +1,8 @@
-# README generator
+# tr
 
 ## Description
 
-README generator
+tr
 
 ## Table of Contents
 
@@ -15,22 +15,22 @@ README generator
 
 ## Installation
 
-this and that
+no
 
 ## Usage
 
-that and such
+yes
 
 ## Contribution
 
-testing
+no
 
 ## Tests
 
-cheats
+yes
 
 ## Questions
 
-If you have any questions about this project, contact me at tracynburton@gmail.com.
-Don't forger to check out my other projects! Visit https://github.com/tracybrtn.
+If you have any questions about this project, contact me at tr.
+Don't forget to check out my other projects! Visit https://github.com/tr.
 

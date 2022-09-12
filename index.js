@@ -5,8 +5,6 @@ const inquirer = require('inquirer');
 //link to page where README.md is generated
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
-
-
 // Array of questions for user input
 const questions = () => {
     //that uses inquirer to .prompt questions to user
@@ -50,6 +48,35 @@ const questions = () => {
                 }
             }
         },
+        {
+            type: 'confirm',
+            name: 'confirmAddLicense',
+            message: 'Would you like to add a license to this project?',
+            default: false
+        },
+        {
+            //this question only appears if user would like to license their project
+            type: 'list',
+            name: 'license',
+            message: 'What type of license would you like to add?',
+            choices: [
+                'Apache',
+                'GNU',
+                'MIT',
+                'BSD 2',
+                'BSD 3',
+                'Boost',
+                'CC',
+                'Eclipse',
+                'GNU',
+                'Mozilla',
+                'The Unlicense'
+                ],
+            when(answers) {
+                return answers.confirmAddLicense;
+            }
+        },
+        
         {
             type: 'input',
             name: 'description',
