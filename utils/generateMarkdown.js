@@ -1,31 +1,62 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-//function renderLicenseBadge(license) {}
+// Function that returns a license badge based on which license is passed in
+function renderLicenseBadge(license) {
+//   If there is no license, return an empty string
+   if (!license) {
+    return '';
+   }
+
+//   returns license badge
+   return `
+
+   [![License](https://img.shields.io/badge/License-${license}-lightblue.svg)]
+
+  `
+}
 
 // TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-//function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  // If there is no license, return an empty string
+  if (!license) {
+     return '';
+   }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-//function renderLicenseSection(license) {}
+   //returns license link
+   return `
+   [License](#license)`
+}
+
+// A function that returns the license section of README
+function renderLicenseSection(license) {
+   // If there is no license, return an empty string
+   if (!license) {
+     return '';
+  }
+
+  //returns license section of README
+   return `
+  ## LICENSE
+
+ This application is licensed under ${license}.
+ `
+  
+}
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = data => {
-  return `# ${data.title}
-
+  return `# ${data.title}  
+${renderLicenseBadge(data.license)}
 ## Description
 
 ${data.title}
 
 ## Table of Contents
 
-1. [Description](#description)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Contribution](#contribution)
-5. [Tests](#tests)
-6. [Questions](#questions)
+[Description](#description)
+[Installation](#installation)
+[Usage](#usage)${renderLicenseLink(data.license)}
+[Contributing](#contributing)
+[Tests](#tests)
+[Questions](#questions)
 
 ## Installation
 
@@ -35,7 +66,9 @@ ${data.installation}
 
 ${data.usage}
 
-## Contribution
+${renderLicenseSection(data.license)}
+
+## Contributing
 
 ${data.contribution}
 
@@ -47,7 +80,6 @@ ${data.test}
 
 If you have any questions about this project, contact me at ${data.email}.
 Don't forget to check out my other projects! Visit https://github.com/${data.github}.
-
 `;
 }
 

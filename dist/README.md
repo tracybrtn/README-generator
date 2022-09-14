@@ -1,36 +1,46 @@
-# tr
+# s  
 
+
+   [![License](https://img.shields.io/badge/License-BSD 2-lightblue.svg)]
+
+  
 ## Description
 
-tr
+s
 
 ## Table of Contents
 
-1. [Description](#description)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Contribution](#contribution)
-5. [Tests](#tests)
-6. [Questions](#questions)
+[Description](#description)
+[Installation](#installation)
+[Usage](#usage)
+   [License](#license)
+[Contributing](#contributing)
+[Tests](#tests)
+[Questions](#questions)
 
 ## Installation
 
-no
+t
 
 ## Usage
 
-yes
+e
 
-## Contribution
 
-no
+  ## LICENSE
+
+ This application is licensed under BSD 2.
+ 
+
+## Contributing
+
+s
 
 ## Tests
 
-yes
+a
 
 ## Questions
 
-If you have any questions about this project, contact me at tr.
-Don't forget to check out my other projects! Visit https://github.com/tr.
-
+If you have any questions about this project, contact me at e.
+Don't forget to check out my other projects! Visit https://github.com/y.
