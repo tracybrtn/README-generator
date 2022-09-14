@@ -47,7 +47,7 @@ GIVEN a command-line application that accepts user input
 
 ## Installation
 
-User should clone this repository from Github and download Node. From your terminal run commands `npm init` and `npm install inquirer`. Then you will be prompted a series of questions.
+User should clone this repository from Github and download Node. From your terminal run commands `npm init` and `npm install inquirer`. Then you will be prompted a series of questions. Here is a [video demonstrating how to install and use the app.](https://watch.screencastify.com/v/HjsCYIqQl4G0zkpgItR9)
 
 ## Usage
 
