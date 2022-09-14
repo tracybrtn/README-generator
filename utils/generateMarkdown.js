@@ -44,7 +44,7 @@ const generateMarkdown = data => {
 ${renderLicenseBadge(data.license)}
 ## Description
 
-${data.title}
+${data.description}
 
 ## Table of Contents
 

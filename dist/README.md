@@ -1,10 +1,10 @@
 # README-generator
 
-![Badge](https://img.shields.io/badge/License-MIT-lightblue.svg)
+![Badge](https://img.shields.io/badge/License-Apache-lightblue.svg)
 
 ## Description
 
-README-generator
+Command-line application that dynamically generates professional README.md files from user's input through Inquirer.
 
 ## Table of Contents
 
@@ -19,23 +19,23 @@ README-generator
 
 ## Installation
 
-no
+Use inquirer from your command line to answer questions about your project. That information will be used to generate the README. Run the following command at the root of the README-generator folder to initialize the application: `node index.js`.
 
 ## Usage
 
-no
+User should clone this repository from Github and download Node. From your terminal run commands `npm init` and `npm install inquirer`. Then you will be prompted a series of questions.
 
 ## License
 
-This application is licensed under MIT.
+This application is licensed under Apache.
 
 ## Contributing
 
-no
+If you would like to contribute to this project reach out to me. You can find my contact information in the [Questions](#questions) section.
 
 ## Tests
 
-no
+No testing information available at the moment.
 
 ## Questions
 

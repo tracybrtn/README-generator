@@ -80,12 +80,12 @@ const questions = () => {
         {
             type: 'input',
             name: 'description',
-            message: 'Please describe your project (required)',
+            message: 'Please describe your project.',
             validate: descriptionInput => {
                 if (descriptionInput) {
                     return true;
                 } else {
-                    console.log('Please enter a description for your project.');
+                    console.log('You need to enter a description for your project.');
                     return false;
                 }
             }
@@ -93,12 +93,12 @@ const questions = () => {
         {
             type: 'input',
             name: 'installation',
-            message: 'Please enter instructions for installation (required)',
+            message: 'Please enter instructions for installation.',
             validate: installationInput => {
                 if (installationInput) {
                     return true;
                 } else {
-                    console.log('Please enter installation instructions for your application.');
+                    console.log('You need to enter installation instructions for your application.');
                     return false;
                 }
             }
@@ -106,12 +106,12 @@ const questions = () => {
         {
             type: 'input',
             name: 'usage',
-            message: 'Please explain usage of your application (required)',
+            message: 'Please explain usage of your application.',
             validate: usageInput => {
                 if (usageInput) {
                     return true;
                 } else {
-                    console.log('Please enter application usage information.');
+                    console.log('You need to enter application usage information.');
                     return false;
                 }
             }
@@ -119,12 +119,12 @@ const questions = () => {
         {
             type: 'input',
             name: 'contribution',
-            message: 'Please describe how users can contribute to your application (required)',
+            message: 'Please describe how users can contribute to your application.',
             validate: contributionInput => {
                 if (contributionInput) {
                     return true;
                 } else {
-                    console.log('Please enter how users can contribute to your application.');
+                    console.log('You need to describe how users can contribute to your application.');
                     return false;
                 }
             }
@@ -132,12 +132,12 @@ const questions = () => {
         {
             type: 'input',
             name: 'test',
-            message: 'Please enter instructions for user testing (required)',
+            message: 'Please enter instructions for user testing.',
             validate: testingInput => {
                 if (testingInput) {
                     return true;
                 } else {
-                    console.log('Please enter instructions for user testing.');
+                    console.log('You need to enter instructions for user testing.');
                     return false;
                 }
             }
@@ -171,12 +171,3 @@ const writeToFile = data => {
         .catch(err => {
             console.log(err)
         })
-
-
-
-
-// TODO: Create a function to initialize app
-//function init() {}
-
-// Function call to initialize app
-// init();
