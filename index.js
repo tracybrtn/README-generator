@@ -149,10 +149,8 @@ const questions = () => {
 // TODO: Create a function to write README file
 const writeToFile = data => {
         fs.writeFile(`./dist/README.md`, data, err => {
-            // if there is an error, reject the Promise and send it to catch() method
             if (err) {
                 console.log(err);
-                //return function so that resolve() is not executed
                 return;
             } else {
                 console.log("README created")
