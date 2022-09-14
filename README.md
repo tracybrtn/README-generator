@@ -47,11 +47,11 @@ GIVEN a command-line application that accepts user input
 
 ## Installation
 
-Use inquirer from your command line to answer questions about your project. That information will be used to generate the README. Run the following command at the root of the README-generator folder to initialize the application: `node index.js`.
+User should clone this repository from Github and download Node. From your terminal run commands `npm init` and `npm install inquirer`. Then you will be prompted a series of questions.
 
 ## Usage
 
-User should clone this repository from Github and download Node. From your terminal run commands `npm init` and `npm install inquirer`. Then you will be prompted a series of questions.
+Use inquirer from your command line to answer questions about your project. That information will be used to generate the README. Run the following command at the root of the README-generator folder to initialize the application: `node index.js`.
 
 ## License
 
